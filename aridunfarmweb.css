@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #FFCF73;
+	position: fixed;
+	margin-top: 0;
+	width: 100%;
+	border-bottom: 1px;
+	display: block;
+	z-index: 2;
+}
+.logo{
+	float: left;
+	width: auto;
+	height: 70px;
+}
+h1{
+	font-family: 'Poppins', cursive;
+	float: left;
+	align-content: center;
+	margin-top: 10px;
+	color: #655c56;
+	height: 40px;
+}
+nav{ align-items: center;
+}
+ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	background-color: #FFCF73;
+	margin-top: 5px;
+	float: right;
+
+}
+nav ul li{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: 'Lato', sans-serif;
+}
+ul a{
+	text-decoration: none;
+	color: #655c56;
+	text-align: center;
+	padding: 14px 92px;
+	border-radius: 5%;
+}
+ul a:hover{
+	background-color: #655C56;
+	color:#94d3ac;
+}
+.home{
+	background-image: url(melon1.jpg);
+	height: 900px;
+	background-position: center;
+}
+#search-box{
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	padding: 450px 80px 450px 370px;
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+
+}
+	
+content{
+	background-color: #effcef;
+}
+input{
+	width: 500px;
+	height: 50px;
+	align-items: center;
+}
+form{
+	padding: 10px;
+	border: 4px solid #FFCF73;
+	border-radius: 5%;
+	background-color: #FFCF73;
+}
+form p{
+	align-items: center;
+	font-size: 50px;
+	color: #655c56;
+}
+
+.projects{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	width: 100%;
+	background-color: #FFCF73;
+	padding: 90px 0;
+}
+.projects h2{
+	font-weight: bolder;
+	font-family: 'Josefin Sans', sans-serif;
+	float: left;
+	height: 100%;
+	padding: 200px 30px;
+	background-color: #effcef;
+	color: #655c56;
+	font-size: 80px;
+	margin-right: 20px;
+}
+.project{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	justify-content: space-around;
+	font-size: 20px;
+	border: solid 8px #effcef;
+	border-radius: 5%;
+	margin: 0 5px;
+	padding: 30px 0;
+
+}
+.icon{
+	align-content: center;
+	width: auto;
+	height: 140px;
+}
+.project a{
+	text-decoration: none;
+	color: white;
+}
+.project h3{
+	text-align: center;
+	font-size: 30px;
+	color: #655c56;
+	font-weight: bolder;
+}
+.facts{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	background-color: #effcef;
+	padding: 90px 0; 
+}
+#fact-title{
+	position: absolute;
+	padding-bottom: 250px;
+	font-weight: bolder;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #655c56;
+}
+#bloodpressure, #immunity, #stomach h4{
+	font-family: 'Crete Round', serif;
+	color: #655c56;
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: justify;
+}
+
+footer{
+	background-color: #effcef;
+	margin-bottom: 0;
+	height: 50px;
+}
+footer h4{
+	color: #655c56;
+	font-weight: bolder;
+	font-size: 30px;
+	padding-top: 10px;
+}
